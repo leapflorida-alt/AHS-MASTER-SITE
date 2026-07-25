@@ -1,0 +1,4 @@
+AA Advanced Home Solutions v3.0
+Static Netlify root package repaired
+Transparent logo cropped and installed sitewide
+No catch-all redirect
