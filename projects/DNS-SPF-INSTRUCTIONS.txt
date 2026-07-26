@@ -1,0 +1,18 @@
+SPF IS A DNS/EMAIL SETTING, NOT A WEBSITE FILE
+
+The website ZIP cannot activate SPF. Add one TXT record at the DNS host for the domain that sends email.
+
+Email currently shown on the site:
+nate@aaahomesolutions.pro
+
+Therefore, SPF normally belongs on:
+aaahomesolutions.pro
+
+The exact SPF value depends on the email provider. Do not publish a guessed SPF record.
+Examples only:
+- Google Workspace commonly uses: v=spf1 include:_spf.google.com ~all
+- Microsoft 365 commonly uses: v=spf1 include:spf.protection.outlook.com -all
+
+If an SPF TXT record already exists, edit that record. Do not create a second SPF record because multiple SPF records can cause SPF failure.
+
+Ask the email provider or domain host for the exact authorized-sender value before publishing it.
