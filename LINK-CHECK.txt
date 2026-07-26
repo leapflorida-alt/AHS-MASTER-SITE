@@ -1,1 +1,3 @@
-All checked local src/href targets exist.
+Canonical targets missing locally: 0
+Indexable pages with no incoming internal HTML links: 0
+Minimum incoming internal links to an indexable page: 1

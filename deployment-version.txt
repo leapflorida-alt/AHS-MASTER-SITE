@@ -1,3 +1,2 @@
-AAHS V4 FIXED SITE
-Built 2026-07-26
-Includes repaired HTML structure, updated review/Facebook links, six unique project pages, gallery/homepage integration, sitemap and responsive framework fixes.
+AA Advanced Home Solutions V4.2 – Ahrefs canonical and internal-link architecture fix
+Generated 2026-07-26
