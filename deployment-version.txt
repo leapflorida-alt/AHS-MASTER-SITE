@@ -1,4 +1,3 @@
-AA Advanced Home Solutions v3.0
-Static Netlify root package repaired
-Transparent logo cropped and installed sitewide
-No catch-all redirect
+AAHS V4 FIXED SITE
+Built 2026-07-26
+Includes repaired HTML structure, updated review/Facebook links, six unique project pages, gallery/homepage integration, sitemap and responsive framework fixes.
