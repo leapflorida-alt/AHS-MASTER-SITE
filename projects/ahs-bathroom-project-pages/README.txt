@@ -1,0 +1,1 @@
+Three standalone bathroom project pages. Each HTML file contains its project image and logo internally, so it can be opened directly without an assets folder. Navigation links are intended to connect to the main website when deployed.
