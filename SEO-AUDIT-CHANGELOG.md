@@ -47,3 +47,14 @@ Audit date: 2026-08-28
 - Added substantive, unique service pages for concrete repair/replacement, roofing, and irrigation, including Service and FAQ structured data, South Florida service areas, process details, and conversion paths.
 - Added the new services to sitewide navigation, the services hub, sitemap, website directory, contact form, and llms.txt.
 - City coverage is presented as a genuine service-area list rather than duplicated doorway pages or repetitive keyword blocks.
+
+## Semrush post-deployment verification
+
+- Production recrawl completed Aug. 28, 2026 after the schema, metadata, redirect, and internal-link updates.
+- Site Health improved from 95% to 98%.
+- AI Search Health improved from 93% to 99%; ChatGPT-User, OAI-SearchBot, Googlebot, and Google-Extended all remain allowed.
+- Errors fell from 56 to 0: the 38 invalid structured-data items and 18 duplicate meta-description errors cleared.
+- Redirected pages fell from 55 to 1 after internal links were normalized.
+- The blocked-external-resource notice now represents Ahrefs' `analytics.js` across Semrush's discovered URL variants. It is controlled by `analytics.ahrefs.com/robots.txt`, not this site's robots.txt, and was intentionally retained so analytics continues working.
+- Remaining low-word-count and long-title warnings require page-by-page editorial judgment; they were not bulk-padded or truncated merely to improve a tool score.
+- Production deploy: `6a923a0c99ce0c97d676f8ad` (followed by equivalent manifest refresh `6a923a7a7a0d65ad212d87cc`).
