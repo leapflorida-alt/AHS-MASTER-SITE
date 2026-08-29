@@ -30,3 +30,12 @@ Audit date: 2026-08-28
 - Existing unique titles and descriptions were preserved even when some titles exceed common display heuristics; truncation is not a ranking defect and blind shortening could remove valuable location intent. Deployment of the current source will replace the stale duplicate description currently served by the live site.
 - No aggregate ratings or review counts were added to schema because the repository does not contain a verifiable first-party source for those numbers.
 - No street address, opening hours, price range, contractor license, or employee claims were invented.
+
+## Deployment verification
+
+- Git commit: `0efa384` (`Fix service-area schema and SEO metadata`)
+- Netlify production deploy: `6a92327faa31b963c362d300`
+- Verified the live homepage returns HTTP 200 with the `Organization`/`WebSite` entity graph and social metadata.
+- Verified representative live pages now serve distinct meta descriptions instead of the stale general-contracting description.
+- Verified live HTML uses `Cache-Control: public, max-age=0, must-revalidate` plus the new security headers.
+- Verified `/thank-you.html` returns `X-Robots-Tag: noindex, follow`, `/llms.txt` returns HTTP 200, and the obsolete `/projects/about.html` copy returns HTTP 404.
