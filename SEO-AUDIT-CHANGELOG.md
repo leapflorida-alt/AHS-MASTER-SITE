@@ -39,3 +39,11 @@ Audit date: 2026-08-28
 - Verified representative live pages now serve distinct meta descriptions instead of the stale general-contracting description.
 - Verified live HTML uses `Cache-Control: public, max-age=0, must-revalidate` plus the new security headers.
 - Verified `/thank-you.html` returns `X-Robots-Tag: noindex, follow`, `/llms.txt` returns HTTP 200, and the obsolete `/projects/about.html` copy returns HTTP 404.
+# Desktop presentation and expanded services — 2026-08-28
+
+- Increased the desktop navigation height, type size, spacing, and dropdown readability while preserving the existing mobile breakpoint and menu behavior.
+- Expanded the wide-screen content wrapper from 1320px to 1440px so sections use laptop and desktop space more confidently.
+- Added restrained shadows, image scaling, contrast treatment, and elevated card/checklist surfaces for greater visual depth without adding image payload.
+- Added substantive, unique service pages for concrete repair/replacement, roofing, and irrigation, including Service and FAQ structured data, South Florida service areas, process details, and conversion paths.
+- Added the new services to sitewide navigation, the services hub, sitemap, website directory, contact form, and llms.txt.
+- City coverage is presented as a genuine service-area list rather than duplicated doorway pages or repetitive keyword blocks.
